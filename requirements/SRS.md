@@ -72,35 +72,35 @@
 ## 2.2 Интерфейс пользователя
 Окно загрузки приложения.  
 
-![Окно загрузки приложения](https://github.com/sunshine1uvv/SellCar/blob/master/mockups/pdf/load%20window.pdf)  
+![Окно загрузки приложения](https://github.com/sunshine1uvv/SellCar/blob/master/mockups/png/load%20window.png)  
 
 Окно регистрации нового пользователя.  
 
-![Окно регистрации нового пользователя](https://github.com/sunshine1uvv/SellCar/blob/master/mockups/pdf/registration.pdf)
+![Окно регистрации нового пользователя](https://github.com/sunshine1uvv/SellCar/blob/master/mockups/png/registration.png)
 
 Окно входа для зарегистрированного пользователя.  
 
-![Окно входа для зарегистрированного пользователя](https://github.com/sunshine1uvv/SellCar/blob/master/mockups/pdf/sign.pdf)
+![Окно входа для зарегистрированного пользователя](https://github.com/sunshine1uvv/SellCar/blob/master/mockups/png/sign.png)
 
 Главное окно приложения.
 
-![Главное окно приложения](https://github.com/sunshine1uvv/SellCar/blob/master/mockups/pdf/main%20window.pdf)
+![Главное окно приложения](https://github.com/sunshine1uvv/SellCar/blob/master/mockups/png/main%20window.png)
 
 Окно создания нового объявления. 
 
-![Окно создания нового объявления](https://github.com/sunshine1uvv/SellCar/blob/master/mockups/pdf/add%20ad.pdf) 
+![Окно создания нового объявления](https://github.com/sunshine1uvv/SellCar/blob/master/mockups/png/add%20ad.png) 
 
 Окно избранное. 
 
-![Окно избранное](https://github.com/sunshine1uvv/SellCar/blob/master/mockups/pdf/favorites.pdf)
+![Окно избранное](https://github.com/sunshine1uvv/SellCar/blob/master/mockups/png/favorites.png)
 
 Окно прочее. 
 
-![Окно прочее](https://github.com/sunshine1uvv/SellCar/blob/master/mockups/pdf/other.pdf) 
+![Окно прочее](https://github.com/sunshine1uvv/SellCar/blob/master/mockups/png/other.png) 
 
 Окно мой аккаунт. 
 
-![Окно мой аккаунт](https://github.com/sunshine1uvv/SellCar/blob/master/mockups/pdf/account.pdf)
+![Окно мой аккаунт](https://github.com/sunshine1uvv/SellCar/blob/master/mockups/png/account.png)
 
 <a name="user_specifications"></a>
 ### **2.3 Характеристики пользователей:**
