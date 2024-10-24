@@ -1,5 +1,6 @@
 # Диаграмма классов  
 
+<img src="https://github.com/sunshine1uvv/SellCar/blob/master/docs/diagrams/Class/Class%20png/ClassDiagram.png" width="800"/>
 
 # Глоссарий
 
