@@ -11,3 +11,5 @@
 [User interface images](https://github.com/sunshine1uvv/SellCar/tree/master/docs/mockups)
 
 [Diagrams](https://github.com/sunshine1uvv/SellCar/tree/master/docs/diagrams)
+
+[Tests](https://github.com/sunshine1uvv/SellCar/tree/master/docs/tests/)
