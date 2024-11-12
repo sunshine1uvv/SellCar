@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SellCar</string>
+    <string name="title_search">Поиск</string>
+    <string name="title_favorite">Избранное</string>
+    <string name="title_ad">Новое объявление</string>
+    <string name="title_other">Прочее</string>
+    <string name="title_brand">Марка</string>
+    <string name="title_model">Модель</string>
+    <string name="title_generation">Поколение</string>
+    <string name="title_body_car">Кузов</string>
+    <string name="title_transmission">Коробка передач</string>
+    <string name="title_state">Состояние</string>
+    <string name="title_login">Авторизация</string>
+    <string name="title_registration">Регистрация</string>
+    <string name="title_my_ads">Мои объявления</string>
+</resources>

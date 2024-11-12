@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_search">
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.sellcar.fragments.search.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="com.example.sellcar.fragments.favorite.FavoriteFragment"
+        android:label="@string/title_favorite"
+        tools:layout="@layout/fragment_favorite" />
+
+    <fragment
+        android:id="@+id/navigation_ad"
+        android:name="com.example.sellcar.fragments.ad.AdFragment"
+        android:label="@string/title_ad"
+        tools:layout="@layout/fragment_ad" >
+        <action
+            android:id="@+id/action_navigation_ad_to_navigation_brand"
+            app:destination="@id/navigation_brand"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <argument
+            android:name="auto"
+            app:argType="com.example.sellcar.data.Auto"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_other"
+        android:name="com.example.sellcar.fragments.other.OtherFragment"
+        android:label="@string/title_other"
+        tools:layout="@layout/fragment_other" >
+        <action
+            android:id="@+id/action_navigation_other_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_navigation_other_to_myAdsFragment"
+            app:destination="@id/myAdsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_brand"
+        android:name="com.example.sellcar.fragments.brand.BrandFragment"
+        android:label="@string/title_brand"
+        tools:layout="@layout/fragment_brand" >
+        <action
+            android:id="@+id/action_navigation_brand_to_navigation_model"
+            app:destination="@id/navigation_model"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <argument
+            android:name="auto"
+            app:argType="com.example.sellcar.data.Auto" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_model"
+        android:name="com.example.sellcar.fragments.models.ModelFragment"
+        android:label="@string/title_model"
+        tools:layout="@layout/fragment_model"
+        >
+        <argument
+            android:name="auto"
+            app:argType="com.example.sellcar.data.Auto" />
+        <action
+            android:id="@+id/action_navigation_model_to_navigation_generation"
+            app:destination="@id/navigation_generation" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_generation"
+        android:name="com.example.sellcar.fragments.generation.GenerationFragment"
+        android:label="@string/title_generation"
+        tools:layout="@layout/fragment_generation" >
+        <argument
+            android:name="auto"
+            app:argType="com.example.sellcar.data.Auto" />
+        <action
+            android:id="@+id/action_navigation_generation_to_bodyCarFragment"
+            app:destination="@id/bodyCarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bodyCarFragment"
+        android:name="com.example.sellcar.fragments.BodyCarFragment"
+        android:label="@string/title_body_car"
+        tools:layout="@layout/fragment_body_car" >
+        <action
+            android:id="@+id/action_bodyCarFragment_to_transmissionFragment"
+            app:destination="@id/transmissionFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <argument
+            android:name="auto"
+            app:argType="com.example.sellcar.data.Auto" />
+    </fragment>
+    <fragment
+        android:id="@+id/transmissionFragment"
+        android:name="com.example.sellcar.fragments.TransmissionFragment"
+        android:label="@string/title_transmission"
+        tools:layout="@layout/fragment_transmission" >
+        <argument
+            android:name="auto"
+            app:argType="com.example.sellcar.data.Auto" />
+        <action
+            android:id="@+id/action_transmissionFragment_to_stateFragment"
+            app:destination="@id/stateFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/stateFragment"
+        android:name="com.example.sellcar.fragments.StateFragment"
+        android:label="@string/title_state"
+        tools:layout="@layout/fragment_state" >
+        <argument
+            android:name="auto"
+            app:argType="com.example.sellcar.data.Auto" />
+        <action
+            android:id="@+id/action_stateFragment_to_navigation_ad"
+            app:destination="@id/navigation_ad" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.sellcar.fragments.RegisterFragment"
+        android:label="@string/title_registration" >
+        <action
+            android:id="@+id/action_registerFragment_to_navigation_other"
+            app:destination="@id/navigation_other"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.sellcar.fragments.LoginFragment"
+        android:label="@string/title_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_loginFragment_to_navigation_other"
+            app:destination="@id/navigation_other"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/myAdsFragment"
+        android:name="com.example.sellcar.fragments.MyAdsFragment"
+        android:label="@string/title_my_ads" />
+</navigation>

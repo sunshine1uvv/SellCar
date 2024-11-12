@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "133182634580",
+    "firebase_url": "https://sellcardatabase-default-rtdb.firebaseio.com",
+    "project_id": "sellcardatabase",
+    "storage_bucket": "sellcardatabase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133182634580:android:2b6d9e917fb48c7392cbc1",
+        "android_client_info": {
+          "package_name": "com.example.sellcar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFC5_AjHragTzkM96esyaYtUx4ggrZJCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
